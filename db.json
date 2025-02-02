@@ -1,11 +1,13 @@
 {
-    "users": [
-      { "id": 1, "name": "Alice", "age": 25 },
-      { "id": 2, "name": "Bob", "age": 30 }
+    "posts": [
+      { "id": "1", "title": "a title", "views": 100 },
+      { "id": "2", "title": "another title", "views": 200 }
     ],
-    "products": [
-      { "id": 1, "name": "Laptop", "price": 1200 },
-      { "id": 2, "name": "Phone", "price": 800 }
-    ]
+    "comments": [
+      { "id": "1", "text": "a comment about post 1", "postId": "1" },
+      { "id": "2", "text": "another comment about post 1", "postId": "1" }
+    ],
+    "profile": {
+      "name": "typicode"
+    }
   }
-  
